@@ -1,3 +1,4 @@
+# Calculating the factorial of a number
 n = int(input("Enter any number:"))
 factorial = 1
 if n < 0:
