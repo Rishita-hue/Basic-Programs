@@ -1,10 +1,10 @@
-a = int(input("Enter the first number:"))
+a = int(input("Enter the first number"))
 b = int(input("Enter the second number:"))
 if a>b:
-    min = b
+    smaller = b
 else:
-    min = a
-for i in range(1,min+1):
+    smaller = a
+for i in range(1,smaller+1):
      if a % i == 0 and b % i == 0:
          hcf = i
 
