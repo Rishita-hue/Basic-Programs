@@ -1,3 +1,4 @@
+# Program to transpose a matrix
 def Transpose_matrix (mat):
     A_Transpose=[]
     for i in range(len(mat[0])):
