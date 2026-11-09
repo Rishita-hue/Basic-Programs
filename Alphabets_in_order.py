@@ -5,5 +5,5 @@ new_string = sorted(String)
 for i in new_string:
     a = i.capitalize()
     result.append(a)
-b = " ".join(result)
+b = "\n".join(result)
 print("The sorted words are:",b)
